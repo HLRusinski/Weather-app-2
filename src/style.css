@@ -8,19 +8,7 @@ header {
 a {
   color: rgb(2, 170, 170);
 }
-footer {
-  text-align: center;
-  font-size: 12px;
-  padding: 30px 0 0 0;
-}
-.container {
-  background: white;
-  max-width: 600px;
-  margin: 50px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-  border-radius: 15px;
-  padding: 40px;
-}
+
 .city-input {
   background-color: #f9f7fe;
   border: none;
@@ -39,4 +27,37 @@ footer {
 .weather-info {
   display: flex;
   justify-content: space-between;
+}
+.city {
+  font-size: 37px;
+  line-height: 40px;
+}
+.weather-details {
+  font-size: 15px;
+  line-height: 16px;
+  color: rgba(39, 33, 66, 0.7);
+}
+.weather-details strong {
+  color: teal;
+}
+.current-temp {
+  display: flex;
+}
+.weather-temp {
+  font-size: 75px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.container {
+  background: white;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 15px;
+  padding: 40px;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 30px 0 0 0;
 }
