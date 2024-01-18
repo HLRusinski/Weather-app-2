@@ -1,6 +1,9 @@
 function updateWeather(response) {
   let tempElement = document.querySelector("#current-temp");
   let temperature = response.data.temperature.current;
+  let cityElement = document.querySelector("#city");
+
+  cityElement.innerHTML = response.data.city;
   tempElement.innerHTML = Math.round(temperature);
 }
 
@@ -12,10 +15,10 @@ function pullTemp(city) {
 function search(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#city-input");
-  let cityElement = document.querySelector("#city");
-  cityElement.innerHTML = searchInput.value;
   pullTemp(searchInput.value);
 }
 
 let citySearchElement = document.querySelector("#city-search");
 citySearchElement.addEventListener("submit", search);
+
+pullTemp("London");
