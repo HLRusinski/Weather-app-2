@@ -46,7 +46,15 @@ a {
 .weather-temp {
   font-size: 75px;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 10px;
+}
+.weather-emoji {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.temp-metric {
+  font-size: 20px;
+  margin-top: 25px;
 }
 .container {
   background: white;
