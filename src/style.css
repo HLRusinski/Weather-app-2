@@ -36,3 +36,7 @@ footer {
   font-size: 13px;
   color: white;
 }
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+}
