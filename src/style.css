@@ -69,6 +69,11 @@ a {
   border-radius: 15px;
   padding: 40px;
 }
+.row {
+  margin-top: 180px;
+  margin-right: 700px;
+  display: flex;
+}
 footer {
   text-align: center;
   font-size: 12px;
