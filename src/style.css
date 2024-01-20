@@ -71,8 +71,11 @@ a {
 }
 .daily-temp {
   display: inline-block;
-  margin: 42px 30px 25px 35px;
+  margin: 45px 30px 25px 25px;
   text-align: center;
+}
+.forecast-icon {
+  max-width: 40px;
 }
 footer {
   text-align: center;
