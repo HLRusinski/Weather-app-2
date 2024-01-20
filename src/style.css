@@ -71,6 +71,7 @@ a {
 }
 .row {
   display: flex;
+  margin-top: 35px;
 }
 footer {
   text-align: center;
